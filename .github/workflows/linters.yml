@@ -1,0 +1,44 @@
+name: Linters
+
+on: pull_request
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  lighthouse:
+    name: Lighthouse
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Setup Lighthouse
+        run: npm install -g @lhci/cli@0.4.x
+      - name: Lighthouse Report
+        run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
+  webhint:
+    name: Webhint
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Setup Webhint
+        run: npm install -g @lhci/cli@0.4.x
+      - name: Webhint Report
+        run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
+  stylelint:
+    name: Stylelint
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Setup Stylelint
+        run: npm install -g @lhci/cli@0.4.x
+      - name: Stylelint Report
+        run: lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=.
