@@ -221,6 +221,10 @@ header i {
   .img1 {
     height: 29rem !important;
   }
+  .img2 {
+    float: none !important;
+    margin: 20px 0;
+  }
   .bnt {
     width: 100%;
     -webkit-box-align: center;
@@ -245,6 +249,12 @@ header i {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 .tle {
@@ -258,5 +268,28 @@ header i {
 
 .center1 {
   text-align: center;
+}
+
+.img2 {
+  height: 9rem;
+}
+
+.reg {
+  background-color: orange;
+  padding: 15px 0;
+}
+
+.btn2 {
+  background-color: silver !important;
+}
+
+.reg-1 {
+  background-color: #c5b6b6;
+  padding: 15px 0;
+}
+
+.reg-2 {
+  background-color: lightblue;
+  padding: 15px 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -211,6 +211,11 @@ header {
     height: 29rem !important;
   }
 
+  .img2{
+    float: none !important;
+    margin: 20px 0;
+  }
+
   .bnt {
     width: 100%;
     align-items: center;
@@ -230,6 +235,12 @@ header {
     display: flex;
     justify-content: center;
   }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 .tle {
@@ -243,4 +254,27 @@ header {
 
 .center1 {
   text-align: center;
+}
+
+.img2{
+  height: 9rem;
+}
+
+.reg {
+  background-color: rgb(255, 165, 0);
+  padding: 15px 0;
+}
+
+.btn2{
+  background-color: silver !important;
+}
+
+.reg-1{
+  background-color: rgb(197, 182, 182);
+  padding: 15px 0;
+}
+
+.reg-2{
+  background-color: lightblue;
+  padding: 15px 0;
 }
