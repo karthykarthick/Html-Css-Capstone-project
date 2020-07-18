@@ -241,6 +241,20 @@ header {
     margin-right: auto;
     width: 50%;
   }
+
+  footer{
+    .types{
+      background-color: black;
+    }
+    .dp{
+      flex-direction: column !important;
+      
+    }
+    li {
+      text-align: center;
+      padding: 0.5em;
+    }
+  }
 }
 
 .tle {
@@ -277,4 +291,30 @@ header {
 .reg-2{
   background-color: lightblue;
   padding: 15px 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+
+  i{
+    font-size: xx-large;
+  }
+
+  .types{
+    background-color: black;
+  }
+
+  a{
+    color: white;
+  }
+
+  .orange{
+    color: #ff7b00;
+  }
+
+  .pa{
+    padding: 1rem;
+  }
 }

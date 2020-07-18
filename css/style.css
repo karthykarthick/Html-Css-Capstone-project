@@ -255,6 +255,19 @@ header i {
     margin-right: auto;
     width: 50%;
   }
+  footer .types {
+    background-color: black;
+  }
+  footer .dp {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  footer li {
+    text-align: center;
+    padding: 0.5em;
+  }
 }
 
 .tle {
@@ -291,5 +304,31 @@ header i {
 .reg-2 {
   background-color: lightblue;
   padding: 15px 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+}
+
+footer i {
+  font-size: xx-large;
+}
+
+footer .types {
+  background-color: black;
+}
+
+footer a {
+  color: white;
+}
+
+footer .orange {
+  color: #ff7b00;
+}
+
+footer .pa {
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
