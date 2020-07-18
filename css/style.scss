@@ -259,6 +259,11 @@ header {
 
 .tle {
   color: orange;
+  font-size: larger;
+}
+
+.tlee{
+  font-size: xx-large;
 }
 
 .search {
@@ -317,4 +322,15 @@ footer {
   .pa{
     padding: 1rem;
   }
+}
+
+.search{
+  position: relative;
+  top: -29px;
+}
+
+// search
+
+.search-form{
+  height: 87vh !important;
 }

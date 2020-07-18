@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-fluid">
+        <div class="">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 icons">
+              <img
+                src="img/logo.png"
+                alt="logo"
+                class="logo img-fluid mt-2 mb-2"
+              />
+              <span class="brand search text-white">patashule</span>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 icons icon1">
+              <div class="mt-4">
+                <i class="fa fa-search"></i>
+                <span class="text-white d-none d-lg-inline">Shools</span>
+
+                <i class="fa fa-user pl-4"></i>
+                <span class="text-white d-none d-lg-inline">About</span>
+
+                <i class="fa fa-rss pl-4"></i>
+                <span class="text-white d-none d-lg-inline">Blog</span>
+
+                <i class="fa fa-bars pl-4"></i>
+                <span class="text-white d-none d-lg-inline">More</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid search-form mt-5">
+        <div class="row ">
+          <div class="text-center mt-5">
+            <p class="tlee">Filter by name, country, level, type, gender :</p>
+          </div>
+
+          <ul class="d-flex justify-content-center mt-4">
+            <input type="text" class="light" placeholder="School Name" />
+
+            <li class="dropdown size">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                country
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">India</a>
+                <a class="dropdown-item" href="#">Nepal</a>
+                <a class="dropdown-item" href="#">U.S.A</a>
+                <a class="dropdown-item" href="#">Canada</a>
+              </div>
+            </li>
+            <li class="dropdown size ml-1">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Level
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Kindergarden</a>
+                <a class="dropdown-item" href="#">primary</a>
+                <a class="dropdown-item" href="#">Secondary</a>
+              </div>
+            </li>
+            <li class="dropdown size ml-1">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Type
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">In-Person</a>
+                <a class="dropdown-item" href="#">Online</a>
+              </div>
+            </li>
+
+            <li class="dropdown size ml-1">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Gender
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Male</a>
+                <a class="dropdown-item" href="#">Female</a>
+                <a class="dropdown-item" href="#">others</a>
+              </div>
+            </li>
+            <li class="form-inline size">
+              <input
+                class="form-control ml-2"
+                type="search"
+                placeholder="Start learning!"
+                aria-label="Search"
+              />
+            </li>
+            <li class="size">
+              <a href="#" class="btn btn-primary ml-2">Search</a>
+            </li>
+            <li class="size">
+              <a href="#" class="btn btn-warning ml-2">Filter</a>
+            </li>
+          </ul>
+        </div>
+        <!--  -->
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </body>
+</html>
