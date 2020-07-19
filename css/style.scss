@@ -229,6 +229,8 @@ header {
 
   .search {
     margin-left: 7px;
+    position: relative !important;
+    top: 12px !important;
   }
 
   .icons {
@@ -254,6 +256,7 @@ header {
       text-align: center;
       padding: 0.5em;
     }
+
   }
 }
 
@@ -332,5 +335,18 @@ footer {
 // search
 
 .search-form{
-  height: 87vh !important;
+  height: 45vh !important;
+  background-color: silver !important;
+}
+
+.img{
+  width: 50px;
+}
+
+.card-img1{
+  height: 15rem;
+}
+
+.searchp{
+  font-size: x-large;
 }
