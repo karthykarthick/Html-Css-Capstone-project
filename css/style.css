@@ -270,6 +270,10 @@ header i {
     text-align: center;
     padding: 0.5em;
   }
+  .form {
+    width: 300px !important;
+    margin: auto;
+  }
 }
 
 .tle {
@@ -359,5 +363,10 @@ footer .pa {
 
 .searchp {
   font-size: x-large;
+}
+
+.form {
+  width: 500px;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
