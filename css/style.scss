@@ -258,7 +258,7 @@ header {
     }
 
   }
-  .form {
+  form {
     width: 300px !important;
     margin: auto;
   }
@@ -355,8 +355,16 @@ footer {
   font-size: x-large;
 }
 
-.form {
-
+form {
   width: 500px;
   margin: auto;
+
+  input{
+    margin-top: 0.5rem;
+  }
+  label{
+    padding-top: 2rem;
+  }
+
+
 }

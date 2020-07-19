@@ -270,7 +270,7 @@ header i {
     text-align: center;
     padding: 0.5em;
   }
-  .form {
+  form {
     width: 300px !important;
     margin: auto;
   }
@@ -365,8 +365,16 @@ footer .pa {
   font-size: x-large;
 }
 
-.form {
+form {
   width: 500px;
   margin: auto;
+}
+
+form input {
+  margin-top: 0.5rem;
+}
+
+form label {
+  padding-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
