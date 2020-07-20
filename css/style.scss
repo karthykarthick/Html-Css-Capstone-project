@@ -213,22 +213,21 @@ header {
   //   width: 100%;
   // }
 
-  .searchform{
+  .searchform {
     width: max-content;
   }
 }
 
 @media all and (max-width: 425px) {
-
   .searchform {
     width: min-content;
   }
 
   .img1 {
-    height: 29rem ;
+    height: 29rem;
   }
 
-  .bg{
+  .bg {
     height: 13rem;
   }
 
@@ -253,7 +252,7 @@ header {
     .types {
       background-color: black;
     }
-  
+
     li {
       text-align: center;
       padding: 0.5em;
@@ -284,7 +283,7 @@ header {
 }
 
 .reg {
-  background-color:rgb(225,126,101);
+  background-color: rgb(225, 126, 101);
   padding: 15px 0;
 }
 
@@ -293,12 +292,12 @@ header {
 }
 
 .reg-1 {
-  background-color: rgb(152,164,165);
+  background-color: rgb(152, 164, 165);
   padding: 15px 0;
 }
 
 .reg-2 {
-  background-color: rgb(80,155,215);
+  background-color: rgb(80, 155, 215);
   padding: 15px 0;
 }
 
@@ -360,12 +359,12 @@ footer {
   list-style-type: none;
 }
 
-.para1{
+.para1 {
   font-size: x-large;
 }
 
-#map{
-    width: 100%;
-    height: 400px;
-    background-color: gray;
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: gray;
 }
