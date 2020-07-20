@@ -205,7 +205,7 @@ header {
     width: 90%;
   }
 
-  .tab{
+  .tab {
     margin-top: 2rem;
   }
 }
@@ -215,7 +215,7 @@ header {
     height: 29rem !important;
   }
 
-  .img2{
+  .img2 {
     float: none !important;
     margin: 20px 0;
   }
@@ -248,26 +248,24 @@ header {
     width: 50%;
   }
 
-  footer{
-    .types{
+  footer {
+    .types {
       background-color: black;
     }
-    .dp{
+    .dp {
       flex-direction: column !important;
-      
     }
     li {
       text-align: center;
       padding: 0.5em;
     }
-
   }
   form {
     width: 300px !important;
     margin: auto;
   }
 
-  .htext{
+  .htext {
     font-size: x-large;
   }
 }
@@ -277,7 +275,7 @@ header {
   font-size: larger;
 }
 
-.tlee{
+.tlee {
   font-size: xx-large;
 }
 
@@ -290,7 +288,7 @@ header {
   text-align: center;
 }
 
-.img2{
+.img2 {
   height: 9rem;
 }
 
@@ -299,16 +297,16 @@ header {
   padding: 15px 0;
 }
 
-.btn2{
+.btn2 {
   background-color: silver !important;
 }
 
-.reg-1{
+.reg-1 {
   background-color: rgb(197, 182, 182);
   padding: 15px 0;
 }
 
-.reg-2{
+.reg-2 {
   background-color: lightblue;
   padding: 15px 0;
 }
@@ -318,48 +316,48 @@ footer {
   color: white;
   padding-top: 2rem;
 
-  i{
+  i {
     font-size: xx-large;
   }
 
-  .types{
+  .types {
     background-color: black;
   }
 
-  a{
+  a {
     color: white;
   }
 
-  .orange{
+  .orange {
     color: #ff7b00;
   }
 
-  .pa{
+  .pa {
     padding: 1rem;
   }
 }
 
-.search{
+.search {
   position: relative;
   top: -29px;
 }
 
 // search
 
-.search-form{
+.search-form {
   height: 45vh !important;
   background-color: silver !important;
 }
 
-.img{
+.img {
   width: 50px;
 }
 
-.card-img1{
+.card-img1 {
   height: 15rem;
 }
 
-.searchp{
+.searchp {
   font-size: x-large;
 }
 
@@ -367,18 +365,16 @@ form {
   width: 500px;
   margin: auto;
 
-  input{
+  input {
     margin-top: 0.5rem;
   }
-  label{
+  label {
     padding-top: 2rem;
   }
-
-
 }
- .asset li{
- list-style-type:none;
- }
+.asset li {
+  list-style-type: none;
+}
 
 //  .form1{
 
@@ -392,5 +388,5 @@ form {
 //   label{
 //     padding-top: 2rem;
 //   }
- 
+
 //  }
