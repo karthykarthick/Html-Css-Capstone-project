@@ -37,7 +37,7 @@ You need to clone the project by running `git clone https://github.com/karthykar
 
 ## Authors
 
-👤 **Umair Arshad**
+👤 **Karthick**
 
 - Github: [@karthykarthick](https://github.com/karthykarthick)
 - Linkedin: [karthick harimoorthy](https://www.linkedin.com/in/karthick-harimoorthy/)
