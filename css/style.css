@@ -263,10 +263,6 @@ header i {
   footer .types {
     background-color: black;
   }
-  footer li {
-    text-align: center;
-    padding: 0.5em;
-  }
   .htext {
     font-size: x-large;
   }
