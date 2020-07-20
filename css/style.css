@@ -218,12 +218,19 @@ header i {
   .tab {
     margin-top: 2rem;
   }
-  .search-form1 {
-    width: 100%;
+  .searchform {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 
 @media all and (max-width: 425px) {
+  .searchform {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
   .img1 {
     height: 29rem !important;
   }
@@ -352,11 +359,6 @@ footer .pa {
   top: -29px;
 }
 
-.search-form {
-  height: 45vh !important;
-  background-color: silver !important;
-}
-
 .img {
   width: 50px;
 }
@@ -367,19 +369,6 @@ footer .pa {
 
 .searchp {
   font-size: x-large;
-}
-
-form {
-  width: 500px;
-  margin: auto;
-}
-
-form input {
-  margin-top: 0.5rem;
-}
-
-form label {
-  padding-top: 2rem;
 }
 
 .asset li {

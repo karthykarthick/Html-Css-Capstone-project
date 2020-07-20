@@ -209,12 +209,21 @@ header {
     margin-top: 2rem;
   }
 
-  .search-form1{
-    width: 100%;
+  // .search-form1{
+  //   width: 100%;
+  // }
+
+  .searchform{
+    width: max-content;
   }
 }
 
 @media all and (max-width: 425px) {
+
+  .searchform {
+    width: min-content;
+  }
+
   .img1 {
     height: 29rem !important;
   }
@@ -342,10 +351,10 @@ footer {
 
 // search
 
-.search-form {
-  height: 45vh !important;
-  background-color: silver !important;
-}
+// .search-form {
+//   height: 45vh !important;
+//   background-color: silver !important;
+// }
 
 .img {
   width: 50px;
@@ -359,17 +368,17 @@ footer {
   font-size: x-large;
 }
 
-form {
-  width: 500px;
-  margin: auto;
+// form {
+//   width: 500px;
+//   margin: auto;
 
-  input {
-    margin-top: 0.5rem;
-  }
-  label {
-    padding-top: 2rem;
-  }
-}
+//   input {
+//     margin-top: 0.5rem;
+//   }
+//   label {
+//     padding-top: 2rem;
+//   }
+// }
 .asset li {
   list-style-type: none;
 }
