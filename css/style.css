@@ -382,4 +382,14 @@ form label {
 .asset li {
   list-style-type: none;
 }
+
+.para1 {
+  font-size: x-large;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
 /*# sourceMappingURL=style.css.map */
