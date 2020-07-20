@@ -218,6 +218,9 @@ header i {
   .tab {
     margin-top: 2rem;
   }
+  .search-form1 {
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 425px) {

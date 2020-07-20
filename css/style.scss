@@ -208,6 +208,10 @@ header {
   .tab {
     margin-top: 2rem;
   }
+
+  .search-form1{
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 425px) {
@@ -230,12 +234,6 @@ header {
     height: 9rem;
     width: 83% !important;
   }
-
-  // .search {
-  //   margin-left: 7px;
-  //   position: relative !important;
-  //   top: 12px !important;
-  // }
 
   .icons {
     display: flex;
