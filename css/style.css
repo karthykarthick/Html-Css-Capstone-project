@@ -225,6 +225,10 @@ header i {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 @media all and (max-width: 425px) {
   .searchform {
     width: -webkit-min-content;
