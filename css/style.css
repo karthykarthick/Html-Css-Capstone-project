@@ -192,13 +192,13 @@ header i {
 
 @media all and (min-width: 1440px) {
   .bg {
-    width: 25%;
+    width: 65%;
   }
 }
 
 @media all and (max-width: 1440px) {
   .bg {
-    width: 47%;
+    width: 60%;
   }
 }
 
@@ -232,11 +232,10 @@ header i {
     width: min-content;
   }
   .img1 {
-    height: 29rem !important;
+    height: 29rem;
   }
-  .img2 {
-    float: none !important;
-    margin: 20px 0;
+  .bg {
+    height: 13rem;
   }
   .bnt {
     width: 100%;
@@ -246,10 +245,6 @@ header i {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .bg {
-    height: 9rem;
-    width: 83% !important;
   }
   .icons {
     display: -webkit-box;
@@ -268,19 +263,9 @@ header i {
   footer .types {
     background-color: black;
   }
-  footer .dp {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-  }
   footer li {
     text-align: center;
     padding: 0.5em;
-  }
-  form {
-    width: 300px !important;
-    margin: auto;
   }
   .htext {
     font-size: x-large;
@@ -305,26 +290,22 @@ header i {
   text-align: center;
 }
 
-.img2 {
-  height: 9rem;
-}
-
 .reg {
-  background-color: orange;
+  background-color: #e17e65;
   padding: 15px 0;
 }
 
 .btn2 {
-  background-color: silver !important;
+  background-color: silver;
 }
 
 .reg-1 {
-  background-color: #c5b6b6;
+  background-color: #98a4a5;
   padding: 15px 0;
 }
 
 .reg-2 {
-  background-color: lightblue;
+  background-color: #509bd7;
   padding: 15px 0;
 }
 

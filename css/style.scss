@@ -180,13 +180,13 @@ header {
 
 @media all and (min-width: 1440px) {
   .bg {
-    width: 25%;
+    width: 65%;
   }
 }
 
 @media all and (max-width: 1440px) {
   .bg {
-    width: 47%;
+    width: 60%;
   }
 }
 
@@ -225,23 +225,17 @@ header {
   }
 
   .img1 {
-    height: 29rem !important;
+    height: 29rem ;
   }
 
-  .img2 {
-    float: none !important;
-    margin: 20px 0;
+  .bg{
+    height: 13rem;
   }
 
   .bnt {
     width: 100%;
     align-items: center;
     justify-content: center;
-  }
-
-  .bg {
-    height: 9rem;
-    width: 83% !important;
   }
 
   .icons {
@@ -259,17 +253,11 @@ header {
     .types {
       background-color: black;
     }
-    .dp {
-      flex-direction: column !important;
-    }
+  
     li {
       text-align: center;
       padding: 0.5em;
     }
-  }
-  form {
-    width: 300px !important;
-    margin: auto;
   }
 
   .htext {
@@ -295,26 +283,22 @@ header {
   text-align: center;
 }
 
-.img2 {
-  height: 9rem;
-}
-
 .reg {
-  background-color: rgb(255, 165, 0);
+  background-color:rgb(225,126,101);
   padding: 15px 0;
 }
 
 .btn2 {
-  background-color: silver !important;
+  background-color: silver;
 }
 
 .reg-1 {
-  background-color: rgb(197, 182, 182);
+  background-color: rgb(152,164,165);
   padding: 15px 0;
 }
 
 .reg-2 {
-  background-color: lightblue;
+  background-color: rgb(80,155,215);
   padding: 15px 0;
 }
 
@@ -348,13 +332,6 @@ footer {
   position: relative;
   top: -29px;
 }
-
-// search
-
-// .search-form {
-//   height: 45vh !important;
-//   background-color: silver !important;
-// }
 
 .img {
   width: 50px;
