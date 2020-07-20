@@ -57,7 +57,7 @@
       </div>
     </nav>
   </header>
-  <body>
+  <main>
     <div class="container card">
       <div class="card-body">
         <p class="display-6 text-uppercase mt-5">Oxford</p>
@@ -163,7 +163,7 @@
     </div>
 
     <div class="container mt-5">
-      <p class="para1 text-uppercase text-danger text-center">
+      <p class="para1 text-uppercase text-danger mb-4 text-center">
         <i class="fa fa-map"></i> map directions
       </p>
 
@@ -172,129 +172,126 @@
         // Initialize and add the map
         function initMap() {
           // The location of Uluru
-          var uluru = {lat: 51.7611, lng: -1.2534};
+          var uluru = { lat: 51.7611, lng: -1.2534 };
           // The map, centered at Uluru
-          var map = new google.maps.Map(
-              document.getElementById('map'), {zoom: 4, center: uluru});
+          var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+          });
           // The marker, positioned at Uluru
-          var marker = new google.maps.Marker({position: uluru, map: map});
+          var marker = new google.maps.Marker({ position: uluru, map: map });
         }
-            </script>
-            <script 
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGi-cUJTmyhBvRn9UpTOyRFB9iDVi5Jhs&callback=initMap">
-            </script>
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGi-cUJTmyhBvRn9UpTOyRFB9iDVi5Jhs&callback=initMap"></script>
     </div>
+  </main>
+  <footer>
+    <div class="container-fluid card types">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <hr class="bg-secondary" />
+          <ul class="d-flex justify-content-around text-decorarion-none dp">
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> home </a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> search</a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> aboutus</a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> advertise</a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none">
+                <i class="fas fa-user-graduate bg-two"></i
+              ></a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> facebook</a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> twitter</a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> blog</a>
+            </li>
+            <li class="text-uppercase">
+              <a href="#" class="text-decoration-none"> google+</a>
+            </li>
+          </ul>
+          <hr class="bg-secondary" />
+        </div>
 
-    <footer>
-      <div class="container-fluid card types">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <hr class="bg-secondary" />
-            <ul class="d-flex justify-content-around text-decorarion-none dp">
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> home </a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> search</a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> aboutus</a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> advertise</a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none">
-                  <i class="fas fa-user-graduate bg-two"></i
-                ></a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> facebook</a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> twitter</a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> blog</a>
-              </li>
-              <li class="text-uppercase">
-                <a href="#" class="text-decoration-none"> google+</a>
-              </li>
-            </ul>
-            <hr class="bg-secondary" />
-          </div>
-
-          <div class="col-lg-4 mt-3 mb-3 align-items-center">
-            <p class="text-uppercase text-center mb-4 searchp">subscribe</p>
-            <div class="text-center">
-              <input
-                type="search"
-                name="search"
-                class="text-center"
-                id="search"
-              /><button
-                type="submit"
-                class="btn btn-sm text-white btn-outline-light"
-              >
-                submit
-              </button>
-            </div>
-          </div>
-          <div class="col-lg-4 mt-3">
-            <p class="text-uppercase searchp mb-4 text-center text-white">
-              about
-            </p>
-            <p class="text-center">
-              Make A Query We Solve It For You. <br />
-              <span class="text-center orange"> patashule@gmail.com</span>
-            </p>
-          </div>
-          <div class="col-lg-4 mt-3 mb-5">
-            <h4 class="text-uppercase searchp mb-4 text-white text-center">
-              contact
-            </h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-              quidem ipsam ex nobis quam, eaque officiis accusantium eligendi
-              natus consectetur <span class="orange">Learn More</span>
-            </p>
-          </div>
-
-          <div class="col-lg-6 col-md-6 col-sm-12 bg-secondary">
-            <ul class="d-flex justify-content-center">
-              <li>
-                <a href="#" class="text-decoration-none"
-                  ><i class="fab pa fa-facebook-f"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none"
-                  ><i class="fab pa fa-instagram"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none"
-                  ><i class="fab pa fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none"
-                  ><i class="fas pa fa-envelope"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-6 col-md-6 pt-4 col-sm-12 text-right bg-secondary">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              perspiciatis conse
-            </p>
+        <div class="col-lg-4 mt-3 mb-3 align-items-center">
+          <p class="text-uppercase text-center mb-4 searchp">subscribe</p>
+          <div class="text-center">
+            <input
+              type="search"
+              name="search"
+              class="text-center"
+              id="search"
+            /><button
+              type="submit"
+              class="btn btn-sm text-white btn-outline-light"
+            >
+              submit
+            </button>
           </div>
         </div>
+        <div class="col-lg-4 mt-3">
+          <p class="text-uppercase searchp mb-4 text-center text-white">
+            about
+          </p>
+          <p class="text-center">
+            Make A Query We Solve It For You. <br />
+            <span class="text-center orange"> patashule@gmail.com</span>
+          </p>
+        </div>
+        <div class="col-lg-4 mt-3 mb-5">
+          <h4 class="text-uppercase searchp mb-4 text-white text-center">
+            contact
+          </h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+            quidem ipsam ex nobis quam, eaque officiis accusantium eligendi
+            natus consectetur <span class="orange">Learn More</span>
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 bg-secondary">
+          <ul class="d-flex justify-content-center">
+            <li>
+              <a href="#" class="text-decoration-none"
+                ><i class="fab pa fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none"
+                ><i class="fab pa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none"
+                ><i class="fab pa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none"
+                ><i class="fas pa fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 col-md-6 pt-4 col-sm-12 text-right bg-secondary">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            perspiciatis conse
+          </p>
+        </div>
       </div>
-    </footer>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script> -->
-  </body>
+    </div>
+  </footer>
 </html>
