@@ -146,12 +146,14 @@ header {
       display: flex;
       justify-content: flex-end;
     }
-    
   }
 }
 
-@media (max-width:767px){
-  .reg-3{
+@media (max-width: 767px) {
+  .reg-3 {
+    display: none;
+  }
+  .mob {
     display: none;
   }
 }
@@ -225,24 +227,23 @@ header {
   }
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-@media all and(max-width: 767px){
+@media all and(max-width: 767px) {
   .icons {
     display: flex;
     justify-content: center;
   }
 
-  .icons{
+  .icons {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
   }
 }
 
 @media all and (max-width: 425px) {
-
   .mob {
     display: none;
   }
@@ -290,7 +291,6 @@ a{
     font-size: x-large;
   }
 }
-
 
 .tle {
   color: orange;
