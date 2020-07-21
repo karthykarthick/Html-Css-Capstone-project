@@ -230,6 +230,9 @@ a {
 }
 
 @media all and (max-width: 425px) {
+  .mob {
+    display: none;
+  }
   .searchform {
     width: -webkit-min-content;
     width: -moz-min-content;

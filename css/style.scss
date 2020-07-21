@@ -222,6 +222,11 @@ a{
   text-decoration: none;
 }
 @media all and (max-width: 425px) {
+
+  .mob {
+    display: none;
+  }
+
   .searchform {
     width: min-content;
   }
