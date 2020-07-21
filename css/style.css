@@ -140,6 +140,8 @@ header nav {
 
 header .brand {
   font-size: xx-large;
+  position: relative;
+  top: -17px;
 }
 
 header i {
