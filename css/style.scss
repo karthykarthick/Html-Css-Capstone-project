@@ -185,12 +185,12 @@ header {
 }
 
 .img1 {
-  height: 26rem;
+  height: 30rem;
 }
 
 @media all and (min-width: 1440px) {
   .bg {
-    width: 65%;
+    width: 38%;
   }
 }
 
@@ -254,7 +254,7 @@ a {
   }
 
   .img1 {
-    height: 29rem;
+    height:30rem;
   }
 
   .bg {
@@ -290,6 +290,16 @@ a {
   }
   .htext {
     font-size: x-large;
+  }
+}
+
+@media all and (max-width:570px){
+  .bg {
+    height: 10rem;
+  }
+
+  .bnt{
+    width: 100%;
   }
 }
 
@@ -366,7 +376,7 @@ footer {
 }
 
 .card-img1 {
-  height: 15rem;
+  height: 30rem;
 }
 
 .searchp {
@@ -387,3 +397,4 @@ footer {
   height: 400px;
   background-color: gray;
 }
+
