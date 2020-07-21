@@ -146,7 +146,7 @@ header i {
   color: white;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 767px) {
   header .icon1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -154,6 +154,9 @@ header i {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+  header .reg3 {
+    display: none;
   }
 }
 
@@ -227,6 +230,28 @@ header i {
 
 a {
   text-decoration: none;
+}
+
+@media all and (max-width: 767px) {
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reg3 {
+    display: none;
+  }
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media all and (max-width: 425px) {

@@ -141,10 +141,13 @@ header {
     color: white;
   }
 
-  @media (min-width: 600px) {
+  @media (max-width: 767px) {
     .icon1 {
       display: flex;
       justify-content: flex-end;
+    }
+    .reg3{
+      display: none;
     }
   }
 }
@@ -221,6 +224,23 @@ header {
 a{
   text-decoration: none;
 }
+
+@media all and(max-width: 767px){
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reg3{
+    display: none;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center; 
+  }
+}
+
 @media all and (max-width: 425px) {
 
   .mob {
@@ -266,11 +286,11 @@ a{
     //   padding: 0.5em;
     // }
   }
-
   .htext {
     font-size: x-large;
   }
 }
+
 
 .tle {
   color: orange;
