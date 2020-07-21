@@ -155,7 +155,10 @@ header i {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  header .reg3 {
+}
+
+@media (max-width: 767px) {
+  .reg-3 {
     display: none;
   }
 }
@@ -240,9 +243,6 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .reg3 {
-    display: none;
   }
   .icons {
     display: -webkit-box;

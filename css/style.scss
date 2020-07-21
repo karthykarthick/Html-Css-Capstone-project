@@ -146,9 +146,13 @@ header {
       display: flex;
       justify-content: flex-end;
     }
-    .reg3{
-      display: none;
-    }
+    
+  }
+}
+
+@media (max-width:767px){
+  .reg-3{
+    display: none;
   }
 }
 
@@ -229,10 +233,6 @@ a{
   .icons {
     display: flex;
     justify-content: center;
-  }
-
-  .reg3{
-    display: none;
   }
 
   .icons{
