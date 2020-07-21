@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Title</title>
+  </head>
+  <body>
+   
+    <header>
+      <nav class="container-fluid py-0 px-5 m-0 edit-navbar d-flex flex-column flex-md-row justify-content-md-between">
+          <h3 class="d-flex align-text-top h-100 text-white justify-content-center my-1">
+              <a class="text-white" href="index.html">
+              <i class="fas display-6 fa-map-marker pt-2 pr-2"></i>
+              <span class="display-6">patashule</span>
+              </a>
+          </h3>
+          <ul class="text-white my-3 d-flex justify-content-center align-items-center">
+              <li class="d-inline px-3">
+                  <a href="#" class="text-white">
+                      <i class="fas fa-search pr-1"></i>
+                      <span class="d-none d-lg-inline">Schools</span>
+                  </a>
+              </li>
+              <li class="d-inline px-3">
+                  <a href="#" class="text-white">
+                      <i class="far fa-user pr-1"></i>
+                      <span class="d-none d-lg-inline">About</span>
+                  </a>
+              </li>
+              <li class="d-inline px-3">
+                  <a href="#" class="text-white">
+                      <i class="fas fa-wifi pr-1"></i>
+                      <span class="d-none d-lg-inline">Blog</span>
+                  </a>
+              </li>
+              <li class="d-inline px-3">
+                  <a href="#" class="text-white">
+                      <i class="fas fa-bars pr-1"></i>
+                      <span class=" d-none d-lg-inline">More...</span>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+  </header>
+    <main>
+      <h1 class="display-6 text-center text-uppercase my-5">
+        Filter by name, country, level, type, gender :
+      </h1>
+
+      <ul class="d-flex justify-content-center flex-wrap align-items-center">
+        <li>
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            country
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">India</a>
+            <a class="dropdown-item" href="#">Nepal</a>
+            <a class="dropdown-item" href="#">U.S.A</a>
+            <a class="dropdown-item" href="#">Canada</a>
+          </div>
+        </li>
+
+        <li>
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Level
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Kindergarden</a>
+            <a class="dropdown-item" href="#">primary</a>
+            <a class="dropdown-item" href="#">Secondary</a>
+          </div>
+        </li>
+
+        <li>
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Type
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">In-Person</a>
+            <a class="dropdown-item" href="#">Online</a>
+          </div>
+        </li>
+
+        <li>
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Gender
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Male</a>
+            <a class="dropdown-item" href="#">Female</a>
+            <a class="dropdown-item" href="#">others</a>
+          </div>
+        </li>
+
+        <li>
+          <input
+            class=""
+            type="search"
+            id="search1"
+            placeholder="Start searching!"
+            aria-label="Search"
+          />
+        </li>
+        <li>
+          <a href="#" class="btn btn-primary">Search</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn-warning"
+            ><i class="fa fa-filter"></i> Filter</a
+          >
+        </li>
+      </ul>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="text-center display-6 text-capitalize mt-5">
+              Search Results Found 6 School(s).
+            </p>
+          </div>
+          <div class="card col-lg-4 col-md-6 mt-5 col-sm-12">
+            <div class="card-img">
+              <img
+                src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/03/20/thumbs_b_c_eaaa4a7ccfefd32540cb87ea6999c817.jpg?v=150524"
+                alt="img"
+                class="card-img card-img1"
+              />
+            </div>
+            <div class="card-body">
+              Name: Oxford University <br /><br />
+              Location: United Kingdom <br />
+              <br />
+              Degree: Medicine <br />
+              <br />
+              <a href="details_query.html" class="text-decoration-none"
+                >Learn More Details</a
+              >
+            </div>
+          </div>
+          <div class="card col-lg-4 mt-5 col-md-6">
+            <div class="card-img">
+              <img src="img/2.jpeg" class="card-img card-img1" alt="img" />
+            </div>
+            <div class="card-body">
+              Name: Hogwards <br /><br />
+              Location: United Kingdom <br />
+              <br />
+              Degree: Magic <br /><br />
+              <a href="details_query.html" class="text-decoration-none"
+                >Learn More Details</a
+              >
+            </div>
+          </div>
+          <div class="card col-lg-4 mt-5 col-md-6">
+            <div class="card-img">
+              <img src="img/3.jpeg" alt="img" class="card-img card-img1" />
+            </div>
+            <div class="card-body">
+              Name: IIM <br /><br />
+              Location: India <br />
+              <br />
+              Degree: MBA <br />
+              <br />
+              <a href="details_query.html" class="text-decoration-none"
+                >Learn More Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card col-lg-4 mt-5 mb-3 col-md-6">
+            <div class="card-img">
+              <img
+                src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/03/20/thumbs_b_c_eaaa4a7ccfefd32540cb87ea6999c817.jpg?v=150524"
+                alt="img"
+                class="card-img card-img1"
+              />
+            </div>
+            <div class="card-body">
+              Name: Oxford University <br /><br />
+              Location: United Kingdom <br />
+              <br />
+              Degree: Medicine <br />
+              <br />
+              <a href="details_query.html" class="text-decoration-none"
+                >Learn More Details</a
+              >
+            </div>
+          </div>
+          <div class="card col-lg-4 mt-5 mb-3 col-md-6">
+            <div class="card-img">
+              <img src="img/2.jpeg" class="card-img card-img1" alt="img" />
+            </div>
+            <div class="card-body">
+              Name: Hogwards <br /><br />
+              Location: United Kingdom <br />
+              <br />
+              Degree: Magic <br /><br />
+              <a href="details_query.html" class="text-decoration-none"
+                >Learn More Details</a
+              >
+            </div>
+          </div>
+          <div class="card col-lg-4 mt-5 mb-3 col-md-6">
+            <div class="card-img">
+              <img src="img/3.jpeg" alt="img" class="card-img card-img1" />
+            </div>
+            <div class="card-body">
+              Name: IIM <br /><br />
+              Location: India <br />
+              <br />
+              Degree: MBA <br />
+              <br />
+              <a href="details_query.html" class="text-decoration-none"
+                >Learn More Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <hr class="bg-secondary" />
+
+      <div
+        class="grey col-lg-12 col-md-12 col-sm-12 mb-4 d-flex justify-content-around text-center"
+      >
+        <a href="#">HOME</a>
+        <a href="#">SEARCH</a>
+        <a href="#">ABOUTUS</a>
+        <a href="#">ADVERTISE</a>
+        <a href="#" class="mob mob1"><i class="fa fa-user-graduate"></i></a>
+        <a href="#" class="mob mob1">FACEBOOK</a>
+        <a href="#" class="mob mob1">TWITTER</a>
+        <a href="#" class="mob mob1">BLOG</a>
+        <a href="#" class="mob mob1">GOOGLE +</a>
+      </div>
+      <hr class="bg-secondary" />
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 mt-3 mb-3 align-items-center">
+            <h4 class="text-uppercase text-center text-white">subscribe</h4>
+            <div class="text-center">
+              <input
+                type="search"
+                name="search"
+                class="text-center"
+                id="submit"
+              /><button type="submit" class="btn btn-sm btn-outline-danger">
+                submit
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <h4 class="text-uppercase text-center text-white">about</h4>
+            <p class="text-center">
+              Make A Query We Solve It For You. <br />
+              <span class="text-center orange"> patashule@gmail.com</span>
+            </p>
+          </div>
+          <div class="col-lg-4 mt-3 mb-3">
+            <h4 class="text-uppercase text-white text-center">contact</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+              quidem ipsam ex nobis quam, eaque officiis accusantium eligendi
+              natus consectetur <span class="orange">Learn More</span>
+            </p>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 bg-secondary">
+            <ul class="d-flex justify-content-center">
+              <li>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fab pa fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fab pa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fab pa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fas pa fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 col-md-6 pt-4 col-sm-12 text-right bg-secondary">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              perspiciatis conse
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </body>
+</html>
