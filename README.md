@@ -65,7 +65,6 @@ Give a ⭐️ if you like this project!
 - Project inspired by Microverse Program
 - Thanks for this UX/UI Design 
   [Mathew Njuguna - PATASHULE](https://www.behance.net/gallery/25563385/PatashuleKE).
-- W3Schools
 - CSS Tricks
 
 
