@@ -20,7 +20,7 @@
 To see a preview of the actual project, check out the [Live Demo Link](https://raw.githack.com/karthykarthick/Html-Css-Capstone-project/development/index.html)
 
 ## Video Presentation of the project
-[Video Presentation Link] (https://www.loom.com/share/f4a9f29663a846ff92c24c48f1c36a30)
+[Video Presentation Link] (https://www.loom.com/share/7dddd169d26d4d539b111fc43769792a)
 
 ## Getting Started
 
